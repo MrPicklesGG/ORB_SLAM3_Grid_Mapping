@@ -1,0 +1,6 @@
+image: /home/mrpickles/catkin_orb/src/ORB_SLAM3/grid_map_kitti.pgm
+resolution: 0.33
+origin: [0.000000, 0.000000, 0.000000]
+negate: 0
+occupied_thresh: 0.50
+free_thresh: 0.55
