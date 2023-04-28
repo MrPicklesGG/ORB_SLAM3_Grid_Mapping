@@ -20,7 +20,7 @@ A modified version of ORB-SLAM3 which can create 2D grid map online or offline f
 
 3. In another terminal, run:
 
-`rosrun ORB_SLAM3_Grid_Mapping Monopub Vocabulary/ORBvoc.txt Examples/Monocular/KITTI00-02.yaml /PATH_TO_KITTI/KITTI/00 0`.
+`rosrun ORB_SLAM3 Monopub Vocabulary/ORBvoc.txt Examples/Monocular/KITTI00-02.yaml /PATH_TO_KITTI/KITTI/00 0`.
 
 ### Rosbag
 1. In the terminal, run:
@@ -29,11 +29,11 @@ A modified version of ORB-SLAM3 which can create 2D grid map online or offline f
 
 2. Open a new terminal, run: 
 
-`rosrun ORB_SLAM3_Grid_Mapping Monopub Monopub Vocabulary/ORBvoc.txt Examples/Monocular/mono.yaml -1 /camera/image_raw`.
+`rosrun ORB_SLAM3 Monopub Vocabulary/ORBvoc.txt Examples/Monocular/mono.yaml -1 /camera/image_raw`.
 
 3. In another terminal, run:
 
-`rosrun ORB_SLAM2 Monosub 30 5 2 -2 2 -2 0.55 0.50 1 5`.
+`rosrun ORB_SLAM3 Monosub 30 5 2 -2 2 -2 0.55 0.50 1 5`.
 
 4. One more terminal, run:
 
@@ -46,11 +46,11 @@ A modified version of ORB-SLAM3 which can create 2D grid map online or offline f
 
 2. Open a new terminal, run: 
 
-`rosrun ORB_SLAM3_Grid_Mapping Monopub Monopub Vocabulary/ORBvoc.txt Examples/Monocular/mono.yaml -1 /usb_cam/image_raw`.
+`rosrun ORB_SLAM3 Monopub Monopub Vocabulary/ORBvoc.txt Examples/Monocular/mono.yaml -1 /usb_cam/image_raw`.
 
 3. In another terminal, run:
 
-`rosrun ORB_SLAM2 Monosub 30 5 2 -2 2 -2 0.55 0.50 1 5`.
+`rosrun ORB_SLAM3 Monosub 30 5 2 -2 2 -2 0.55 0.50 1 5`.
 
 4. One more terminal, run:
 
