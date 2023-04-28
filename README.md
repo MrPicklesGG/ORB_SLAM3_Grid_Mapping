@@ -46,7 +46,7 @@ A modified version of ORB-SLAM3 which can create 2D grid map online or offline f
 
 2. Open a new terminal, run: 
 
-`rosrun ORB_SLAM3 Monopub Monopub Vocabulary/ORBvoc.txt Examples/Monocular/mono.yaml -1 /usb_cam/image_raw`.
+`rosrun ORB_SLAM3 Monopub Vocabulary/ORBvoc.txt Examples/Monocular/mono.yaml -1 /usb_cam/image_raw`.
 
 3. In another terminal, run:
 
